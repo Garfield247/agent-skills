@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-09-18T13:30:00Z",
+  "updated_at": "2026-09-18T13:50:00Z",
   "skills": [
     {
       "name": "agent-skill-manager",
@@ -79,7 +79,7 @@
       "dir_name": "golang-base",
       "repo": "git@github.com:Garfield247/agent-skill-golang-base.git",
       "category": "Core Language Base",
-      "description": "地道 Go 语言核心规范、Uber Go 指针使用与内存语义、防 typed nil 陷阱、Channel 所有权与 Goroutine 泄漏防范",
+      "description": "地道 Go 规范、Uber Go 指针与内存语义、代码封装原则、pkg 一层收紧二层按需嵌套标准与 *x 工具包 (slicex/mapx/stringx/timex)",
       "local_path": "skills/golang-base"
     },
     {
