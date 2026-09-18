@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-09-18T13:22:00Z",
+  "updated_at": "2026-09-18T13:30:00Z",
   "skills": [
     {
       "name": "agent-skill-manager",
@@ -87,7 +87,7 @@
       "dir_name": "python-base",
       "repo": "git@github.com:Garfield247/agent-skill-python-base.git",
       "category": "Core Language Base",
-      "description": "Python 3.10+ 现代基础语言规范、PEP 604 强类型系统、可变默认参数避坑、dataclass(slots=True) 与数据模型",
+      "description": "Python 3.10+ 原生类型系统、不可变常量与枚举 (Final/StrEnum)、时间格式化常量、默认可变参数避坑与流式防 OOM",
       "local_path": "skills/python-base"
     }
   ]
