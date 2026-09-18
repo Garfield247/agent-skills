@@ -73,6 +73,22 @@
       "category": "Automation & CLI",
       "description": "Python 3.10+ 现代自动化运维脚本、Typer CLI 工具、安全 Subprocess 调度 (禁 shell=True, 显式 timeout) 与流式防 OOM",
       "local_path": "skills/python-scripting"
+    },
+    {
+      "name": "agent-skill-golang-base",
+      "dir_name": "golang-base",
+      "repo": "git@github.com:Garfield247/agent-skill-golang-base.git",
+      "category": "Core Language Base",
+      "description": "地道 Go 语言底层开发规范、Uber Go 风格实践、Channel 所有权、Goroutine 泄漏防范、错误包装与内存安全",
+      "local_path": "skills/golang-base"
+    },
+    {
+      "name": "agent-skill-python-base",
+      "dir_name": "python-base",
+      "repo": "git@github.com:Garfield247/agent-skill-python-base.git",
+      "category": "Core Language Base",
+      "description": "Python 3.10+ 现代基础语言规范、PEP 604 强类型系统、可变默认参数避坑、dataclass(slots=True) 与数据模型",
+      "local_path": "skills/python-base"
     }
   ]
 }
