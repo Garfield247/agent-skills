@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-agent-skills 一键安装与跨环境同步脚本
-支持一键将 Garfield 的全部 Agent Skills 同步克隆/更新到本地全局环境或当前项目工作区。
+agent-skills 一键安装与跨环境、跨 Agent 同步分发工具链
+支持一键将 Garfield 的全部 Agent Skills 同步克隆/更新到 Gemini、Claude、Cursor/Codex 或本地开发工作区。
 """
 
 import os
@@ -13,12 +13,12 @@ import subprocess
 from pathlib import Path
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Garfield Agent Skills 一键同步分发工具")
+    parser = argparse.ArgumentParser(description="Garfield Agent Skills 多平台/多 Agent 一键同步分发工具")
     parser.add_argument(
-        "--target", "-t",
-        choices=["global", "local"],
-        default="global",
-        help="安装目标: global (全局 ~/.gemini/config/skills/) 或 local (当前项目 .agents/skills/)"
+        "--agent", "-a",
+        choices=["gemini", "claude", "cursor", "local"],
+        default="gemini",
+        help="目标 Agent 环境: gemini (~/.gemini/config/skills/) | claude (~/.claude/skills/) | cursor (.cursor/rules/) | local (.agents/skills/)"
     )
     return parser.parse_args()
 
@@ -35,11 +35,15 @@ def main():
         data = json.load(f)
 
     skills = data.get("skills", [])
-    print(f"[+] 准备同步 {len(skills)} 个 Agent Skills (目标模式: {args.target})...\n")
+    print(f"[+] 准备同步 {len(skills)} 个 Agent Skills 至目标环境: [{args.agent}]...\n")
 
-    if args.target == "global":
+    if args.agent == "gemini":
         dest_base = Path.home() / ".gemini" / "config" / "skills"
-    else:
+    elif args.agent == "claude":
+        dest_base = Path.home() / ".claude" / "skills"
+    elif args.agent == "cursor":
+        dest_base = Path.cwd() / ".cursor" / "rules"
+    else: # local
         dest_base = Path.cwd() / ".agents" / "skills"
 
     dest_base.mkdir(parents=True, exist_ok=True)

@@ -1,7 +1,7 @@
 # agent-skills (Garfield's Agent Skills Hub)
 
 > 🌟 Garfield 的 AI Agent 研发工程技能索引总览中心 (Awesome Agent Skills Hub) 与一键环境同步分发工具链。
-> 适配 Google Antigravity、Gemini Code Assist、Claude、Cursor 等主流现代 Agentic IDE。
+> 原生适配 **Google Antigravity / Gemini Code Assist**、**Anthropic Claude (Claude Code / Projects)**、**Cursor / Codex / GitHub Copilot** 等主流现代 Agentic IDE。
 
 ---
 
@@ -9,7 +9,7 @@
 
 本中心收录了涵盖**前期架构设计、规范编码、全生命周期排错、Git 流转与知识管理**的全套独立专业技能库：
 
-| 分类 | 技能名称 (GitHub 仓库) | 职责与规范重点 | 本地加载路径 |
+| 分类 | 技能名称 (GitHub 仓库) | 职责与规范重点 | 推荐本地目录 |
 | :--- | :--- | :--- | :--- |
 | 🧭 **元管理** | [agent-skill-manager](https://github.com/Garfield247/agent-skill-manager) | **技能管理与元治理**：Skill 规范脚手架创建、脱敏合规审查、中央索引自动同步。 | `skills/skill-manager` |
 | 🏛️ **方案设计** | [agent-skill-technical-design](https://github.com/Garfield247/agent-skill-technical-design) | **前期程序设计 (TDD/RFC)**：方案先行与审阅确认、需求模糊 2-3 个确认点、严禁静默重试/兜底、LaTeX 公式推导、ER 建模与 FSM 闭环。 | `skills/technical-design` |
@@ -23,27 +23,46 @@
 
 ---
 
-## ⚡ 一键安装与跨环境同步 (Quick Start)
+## 📦 多平台 Agent 一键安装与使用指南 (Multi-Agent Guide)
 
-当你在新电脑、物理机房服务器或新项目中，只需克隆本索引仓库，即可一键将全部技能分发就绪：
+克隆索引中心仓库后，可通过内置的 `sync_skills.py` 脚本一键同步分发至不同的智能体开发环境：
 
-### 1. 克隆索引仓库
 ```bash
 git clone git@github.com:Garfield247/agent-skills.git
 cd agent-skills
 ```
 
-### 2. 同步全量技能至 Antigravity / Gemini 全局库
-```bash
-python3 sync_skills.py --target global
-# 自动下载并同步到 ~/.gemini/config/skills/
-```
+### 1. Google Antigravity / Gemini Code Assist
+- **一键同步全量技能至全局环境**：
+  ```bash
+  python3 sync_skills.py --agent gemini
+  # 自动同步至 ~/.gemini/config/skills/
+  ```
 
-### 3. 或同步全量技能至当前开发项目本地工作区
+### 2. Anthropic Claude (Claude Code / Claude Desktop)
+- **一键同步至 Claude Code (CLI) 全局技能库**：
+  ```bash
+  python3 sync_skills.py --agent claude
+  # 自动同步至 ~/.claude/skills/
+  ```
+- **项目级使用**：在项目根目录的 `CLAUDE.md` 中引用即可生效。
+- **Claude Projects (Web 客户端)**：可将对应技能的 `SKILL.md` 直接上传至项目的 **Project Knowledge**。
+
+### 3. Cursor / Codex / GitHub Copilot
+- **一键同步至当前项目的 Cursor 规则库**：
+  ```bash
+  cd /path/to/your-project
+  python3 /path/to/agent-skills/sync_skills.py --agent cursor
+  # 自动克隆至当前项目的 .cursor/rules/ 目录
+  ```
+- **GitHub Copilot / Codex**：
+  将所需的 `SKILL.md` 规范注入项目的 `.github/copilot-instructions.md` 即可。
+
+### 4. 项目工作区通用加载
 ```bash
 cd /path/to/your-project
-python3 /path/to/agent-skills/sync_skills.py --target local
-# 自动下载并同步到当前项目的 .agents/skills/
+python3 /path/to/agent-skills/sync_skills.py --agent local
+# 自动同步至当前项目的 .agents/skills/ 目录
 ```
 
 ---
