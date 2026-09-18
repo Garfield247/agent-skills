@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-09-18T11:00:00Z",
+  "updated_at": "2026-09-18T11:30:00Z",
   "skills": [
     {
       "name": "agent-skill-manager",
       "dir_name": "skill-manager",
       "repo": "git@github.com:Garfield247/agent-skill-manager.git",
       "category": "Meta & Governance",
-      "description": "AI Agent 技能全生命周期管理、主流与黑马对标调研、规范脚手架创建、脱敏审查与跨环境同步",
+      "description": "AI Agent 技能全生命周期管理、主流与黑马 (superpowers等) 对标调研、规范脚手架创建、脱敏审查与跨环境同步",
       "local_path": "skills/skill-manager"
     },
     {
@@ -15,7 +15,7 @@
       "dir_name": "technical-design",
       "repo": "git@github.com:Garfield247/agent-skill-technical-design.git",
       "category": "Architecture & RFC",
-      "description": "前期系统架构与技术方案设计、需求模糊确认机制、严禁静默重试、LaTeX 公式与状态机闭环",
+      "description": "前期系统架构设计、苏格拉底式需求收敛、附带自动化验证命令的微任务拆解、完成前铁证门禁、严禁静默重试与 LaTeX 公式",
       "local_path": "skills/technical-design"
     },
     {
@@ -23,7 +23,7 @@
       "dir_name": "systematic-debugging",
       "repo": "git@github.com:Garfield247/agent-skill-systematic-debugging.git",
       "category": "Debugging & RCA",
-      "description": "系统化 Bug 深度排查、根因定位 (RCA)、严禁盲改代码、严禁静默重试与原子修复验证",
+      "description": "系统化 Bug 深度排查、根因定位 (RCA)、完成前铁证验证门禁、红绿灯测试先行、严禁盲改与静默重试",
       "local_path": "skills/systematic-debugging"
     },
     {
