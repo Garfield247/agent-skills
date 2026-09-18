@@ -89,6 +89,19 @@
       "category": "Core Language Base",
       "description": "Python 3.10+ 原生类型系统、不可变常量与枚举 (Final/StrEnum)、时间格式化常量、默认可变参数避坑与流式防 OOM",
       "local_path": "skills/python-base"
+    },
+    {
+      "name": "codebase-reconnaissance",
+      "description": "大型项目与存量代码库深度勘测、架构逆向工程与精准代码检索技能。涵盖宏观摸骨五步法 SOP (依赖拓扑/流量入口/领域状态机/示踪弹穿透/全景沉淀)、全谱系代码检索五级武器库 (fd/rg/ast-grep/LSP/Repo-Map/Git 演化考古)、无文档逆向考古三绝招 (测试活契约/Git Commit 溯源/CI 脚本底账) 及渐进式披露防认知爆仓铁律。",
+      "repo": "https://github.com/Garfield247/agent-skill-codebase-reconnaissance",
+      "version": "1.0.0",
+      "categories": [
+        "architecture",
+        "code-search",
+        "reverse-engineering",
+        "reconnaissance"
+      ],
+      "created_at": "2026-09-18"
     }
   ]
 }
