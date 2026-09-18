@@ -4,7 +4,7 @@
   "skills": [
     {
       "name": "skill-manager",
-      "description": "AI Agent 技能全生命周期管理、规范脚手架创建、脱敏审查、GitHub 建仓与跨环境同步发布治理技能。",
+      "description": "AI Agent 技能全生命周期管理、自我进化感知、规范脚手架创建、脱敏审查、GitHub 建仓与中央索引库同步治理技能。具备工作过程中主动嗅探技能缺失与缺陷并向用户发起进化提案的能力。",
       "repo": "https://github.com/Garfield247/agent-skill-manager",
       "version": "1.0.0",
       "categories": [
