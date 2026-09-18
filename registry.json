@@ -1,94 +1,18 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-09-18T13:50:00Z",
+  "updated_at": "2026-09-18",
   "skills": [
     {
-      "name": "agent-skill-manager",
-      "dir_name": "skill-manager",
-      "repo": "git@github.com:Garfield247/agent-skill-manager.git",
-      "category": "Meta & Governance",
-      "description": "AI Agent 技能全生命周期管理、主流与黑马 (superpowers等) 对标调研、规范脚手架创建、脱敏审查与跨环境同步",
-      "local_path": "skills/skill-manager"
-    },
-    {
-      "name": "agent-skill-technical-design",
-      "dir_name": "technical-design",
-      "repo": "git@github.com:Garfield247/agent-skill-technical-design.git",
-      "category": "Architecture & RFC",
-      "description": "前期系统架构设计、苏格拉底式需求收敛、附带自动化验证命令的微任务拆解、完成前铁证门禁、严禁静默重试与 LaTeX 公式",
-      "local_path": "skills/technical-design"
-    },
-    {
-      "name": "agent-skill-systematic-debugging",
-      "dir_name": "systematic-debugging",
-      "repo": "git@github.com:Garfield247/agent-skill-systematic-debugging.git",
-      "category": "Debugging & RCA",
-      "description": "系统化 Bug 深度排查、根因定位 (RCA)、完成前铁证验证门禁、红绿灯测试先行、严禁盲改与静默重试",
-      "local_path": "skills/systematic-debugging"
-    },
-    {
-      "name": "agent-skill-git-workflow",
-      "dir_name": "git-workflow-mastery",
-      "repo": "git@github.com:Garfield247/agent-skill-git-workflow.git",
-      "category": "Collaboration & Git",
-      "description": "Git 全场景工作流、分支治理、变基冲突化解、Conventional Commits 原子提交与 .gitignore 分类治理",
-      "local_path": "skills/git-workflow-mastery"
-    },
-    {
-      "name": "agent-skill-project-documentation",
-      "dir_name": "project-documentation",
-      "repo": "git@github.com:Garfield247/agent-skill-project-documentation.git",
-      "category": "Documentation",
-      "description": "人机双重视角文档体系、00 号标准与红线第一法则、Diátaxis 四象限分层、MADR 架构决策、高价值 BUG 避坑档案与 Mermaid 防崩语法",
-      "local_path": "skills/project-documentation"
-    },
-    {
-      "name": "agent-skill-go-zero",
-      "dir_name": "go-zero-development",
-      "repo": "git@github.com:Garfield247/agent-skill-go-zero.git",
-      "category": "Backend & Microservices",
-      "description": "Go 语言与 go-zero 高性能微服务开发规范、Handler/Logic/Model 四层分层、统一响应与错误码、并发安全与调试武器库",
-      "local_path": "skills/go-zero-development"
-    },
-    {
-      "name": "agent-skill-python-fastapi",
-      "dir_name": "python-fastapi",
-      "repo": "git@github.com:Garfield247/agent-skill-python-fastapi.git",
-      "category": "Backend & Microservices",
-      "description": "Python 3.10+ 与 FastAPI 异步高并发 Web API、防阻塞黄金法则、Pydantic v2、统一异常拦截与调试武器库",
-      "local_path": "skills/python-fastapi"
-    },
-    {
-      "name": "agent-skill-python-crawler",
-      "dir_name": "python-crawler",
-      "repo": "git@github.com:Garfield247/agent-skill-python-crawler.git",
-      "category": "Automation & Scraping",
-      "description": "Python 3.10+ 网络爬虫、协议逆向优先、httpx 连接池限流、Playwright 资源拦截优化与强制 Docstring 样例红线",
-      "local_path": "skills/python-crawler"
-    },
-    {
-      "name": "agent-skill-python-scripting",
-      "dir_name": "python-scripting",
-      "repo": "git@github.com:Garfield247/agent-skill-python-scripting.git",
-      "category": "Automation & CLI",
-      "description": "Python 3.10+ 现代自动化运维脚本、Typer CLI 工具、安全 Subprocess 调度 (禁 shell=True, 显式 timeout) 与流式防 OOM",
-      "local_path": "skills/python-scripting"
-    },
-    {
-      "name": "agent-skill-golang-base",
-      "dir_name": "golang-base",
-      "repo": "git@github.com:Garfield247/agent-skill-golang-base.git",
-      "category": "Core Language Base",
-      "description": "地道 Go 规范、Uber Go 指针与内存语义、代码封装原则、pkg 一层收紧二层按需嵌套标准与 *x 工具包 (slicex/mapx/stringx/timex)",
-      "local_path": "skills/golang-base"
-    },
-    {
-      "name": "agent-skill-python-base",
-      "dir_name": "python-base",
-      "repo": "git@github.com:Garfield247/agent-skill-python-base.git",
-      "category": "Core Language Base",
-      "description": "Python 3.10+ 原生类型系统、不可变常量与枚举 (Final/StrEnum)、时间格式化常量、默认可变参数避坑与流式防 OOM",
-      "local_path": "skills/python-base"
+      "name": "skill-manager",
+      "description": "AI Agent 技能全生命周期管理、规范脚手架创建、脱敏审查、GitHub 建仓与跨环境同步发布治理技能。",
+      "repo": "https://github.com/Garfield247/agent-skill-manager",
+      "version": "1.0.0",
+      "categories": [
+        "meta",
+        "governance",
+        "scaffold",
+        "lifecycle"
+      ]
     },
     {
       "name": "codebase-reconnaissance",
@@ -100,8 +24,131 @@
         "code-search",
         "reverse-engineering",
         "reconnaissance"
-      ],
-      "created_at": "2026-09-18"
+      ]
+    },
+    {
+      "name": "technical-design",
+      "description": "生产级前期系统架构、技术方案设计 (TDD/RFC)、数据建模与算法状态机规范技能。涵盖方案先行与审阅确认铁律、苏格拉底式需求收敛协议、微任务自动化检验命令、完成前铁证门禁、LaTeX 公式推导及有限状态机闭环。",
+      "repo": "https://github.com/Garfield247/agent-skill-technical-design",
+      "version": "1.0.0",
+      "categories": [
+        "architecture",
+        "design",
+        "rfc",
+        "tdd"
+      ]
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "生产级系统化 Bug 深度排查、根因定位 (RCA)、风险评估与原子修复工程规范技能。遵循排障五步法、完成前铁证验证门禁、杜绝盲改与静默兜底、红绿灯测试先行及高价值避坑档案沉淀。",
+      "repo": "https://github.com/Garfield247/agent-skill-systematic-debugging",
+      "version": "1.0.0",
+      "categories": [
+        "debugging",
+        "troubleshooting",
+        "root-cause-analysis",
+        "post-mortems"
+      ]
+    },
+    {
+      "name": "git-workflow-mastery",
+      "description": "Git 全生命周期研发工作流、分支治理、变基冲突安全化解、Conventional Commits 原子提交与 .gitignore 分类治理生产级规范技能。",
+      "repo": "https://github.com/Garfield247/agent-skill-git-workflow",
+      "version": "1.0.0",
+      "categories": [
+        "git",
+        "workflow",
+        "vcs",
+        "conventional-commits"
+      ]
+    },
+    {
+      "name": "project-documentation",
+      "description": "人机双重视角项目技术文档体系、分类分层目录治理、00 号标准约束、Diátaxis 四象限架构、MADR 架构决策记录、高价值避坑档案及 Mermaid 图表防崩渲染规范技能。",
+      "repo": "https://github.com/Garfield247/agent-skill-project-documentation",
+      "version": "1.0.0",
+      "categories": [
+        "documentation",
+        "diataxis",
+        "madr",
+        "post-mortems",
+        "standards"
+      ]
+    },
+    {
+      "name": "golang-base",
+      "description": "地道 Go 语言核心开发规范技能。涵盖代码封装六大原则、pkg 基础层分层标准 (一级分类收紧/二级按需拆分)、方案 B *x 扩展工具包 (slicex/mapx/stringx/timex/convx)、指针使用与内存语义黄金规范 (防 typed nil 陷阱)、常量与 iota 枚举设计铁律及时间格式化标准。",
+      "repo": "https://github.com/Garfield247/agent-skill-golang-base",
+      "version": "1.0.0",
+      "categories": [
+        "golang",
+        "language-base",
+        "pointer-semantics",
+        "code-packaging"
+      ]
+    },
+    {
+      "name": "go-zero-development",
+      "description": "Go 语言与 go-zero 高性能微服务架构通用开发与工程规范技能。涵盖 goctl 契约生成边界、API / gRPC RPC 设计、Handler / Logic / ServiceContext / Model 分层职责、GORM / MySQL / Redis 数据库最佳实践、Goroutine Panic 拦截与并发安全红线、分布式锁、长连接网关自愈及优雅停机交付标准。",
+      "repo": "https://github.com/Garfield247/agent-skill-go-zero",
+      "version": "1.0.0",
+      "categories": [
+        "golang",
+        "go-zero",
+        "microservices",
+        "backend"
+      ]
+    },
+    {
+      "name": "python-base",
+      "description": "现代 Python 核心开发规范技能。以 Python 3.10+ 为演进基调，具备完备的环境版本自适应决策机制。涵盖 Python 代码封装六大原则 (防 kwargs 穿透/显式 __all__/防原始类型偏执/上下文管理器)、common 基础层分层架构标准 (一级收紧/二级按需嵌套与方案 B *x 扩展工具包)、核心工具模块生产级标杆 (listx/dictx/strx/timex/convx)、时间格式化模板常量与时区感知、现代常量与不可变数据规范 (typing.Final/StrEnum/IntEnum/@dataclass 冻结配置)、默认可变参数避坑铁律、生成器流式防 OOM、异常链保留及 Pythonic 惯用法。",
+      "repo": "https://github.com/Garfield247/agent-skill-python-base",
+      "version": "1.0.0",
+      "categories": [
+        "python",
+        "language-base",
+        "pythonic",
+        "code-packaging"
+      ]
+    },
+    {
+      "name": "python-fastapi",
+      "description": "Python 3.10+ 与 FastAPI 现代异步高并发 Web API 架构、防阻塞黄金法则、Pydantic v2 与统一业务异常工程规范技能。涵盖 Async/Await 事件循环防阻塞调度、统一响应封装、全局业务异常拦截 (BaseBusinessException, 拒绝笼统 500)、Pydantic v2 ConfigDict 校验规范及异步数据库 Session 生命周期管理。",
+      "repo": "https://github.com/Garfield247/agent-skill-python-fastapi",
+      "version": "1.0.0",
+      "categories": [
+        "python",
+        "fastapi",
+        "asyncio",
+        "web-api",
+        "pydantic-v2"
+      ]
+    },
+    {
+      "name": "python-crawler",
+      "description": "Python 3.10+ 网络爬虫、逆向解析、反反爬对抗与大规模数据采集工程规范技能。涵盖协议逆向优先原则、httpx 异步连接池与并发限流 (Semaphore)、Playwright 动态渲染与资源拦截优化、TLS/JA3 指纹伪装、代理池轮换、指数退避重试及强制 Docstring 请求/响应样例工程红线。",
+      "repo": "https://github.com/Garfield247/agent-skill-python-crawler",
+      "version": "1.0.0",
+      "categories": [
+        "python",
+        "crawler",
+        "reverse-engineering",
+        "scraping",
+        "playwright"
+      ]
+    },
+    {
+      "name": "python-scripting",
+      "description": "Python 3.10+ 现代自动化运维脚本、CLI 命令行工具与批处理工程规范技能。涵盖 Typer/Click 现代化命令行交互规范、安全 Subprocess 进程调用 (严禁 shell=True, 强制显式 timeout)、pathlib.Path 现代路径与流式文件处理、Linux 标准退出码语义、Loguru 结构化控制台及轻量并发执行池。",
+      "repo": "https://github.com/Garfield247/agent-skill-python-scripting",
+      "version": "1.0.0",
+      "categories": [
+        "python",
+        "scripting",
+        "cli",
+        "devops",
+        "automation"
+      ]
     }
   ]
 }
