@@ -7,7 +7,7 @@
       "dir_name": "skill-manager",
       "repo": "git@github.com:Garfield247/agent-skill-manager.git",
       "category": "Meta & Governance",
-      "description": "AI Agent 技能全生命周期管理、规范脚手架创建、脱敏审查与跨环境同步发布",
+      "description": "AI Agent 技能全生命周期管理、主流与黑马对标调研、规范脚手架创建、脱敏审查与跨环境同步",
       "local_path": "skills/skill-manager"
     },
     {

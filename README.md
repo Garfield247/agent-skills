@@ -11,7 +11,7 @@
 
 | 分类 | 技能名称 (GitHub 仓库) | 职责与规范重点 | 推荐本地目录 |
 | :--- | :--- | :--- | :--- |
-| 🧭 **元管理** | [agent-skill-manager](https://github.com/Garfield247/agent-skill-manager) | **技能管理与元治理**：Skill 规范脚手架创建、脱敏合规审查、中央索引自动同步。 | `skills/skill-manager` |
+| 🧭 **元管理** | [agent-skill-manager](https://github.com/Garfield247/agent-skill-manager) | **技能管理与元治理**：主流与黑马对标调研（拒闭门造车）、规范脚手架创建、脱敏合规审查、中央索引自动同步。 | `skills/skill-manager` |
 | 🏛️ **方案设计** | [agent-skill-technical-design](https://github.com/Garfield247/agent-skill-technical-design) | **前期程序设计 (TDD/RFC)**：方案先行与审阅确认、需求模糊 2-3 个确认点、严禁静默重试/兜底、LaTeX 公式推导、ER 建模与 FSM 闭环。 | `skills/technical-design` |
 | 🩺 **排障诊断** | [agent-skill-systematic-debugging](https://github.com/Garfield247/agent-skill-systematic-debugging) | **系统化 Bug 深度排查**：排障五步法 SOP、根因剖析 (RCA)、严禁盲改代码、严禁静默兜底、最小破坏性原子修复与回归闭环。 | `skills/systematic-debugging` |
 | 🛠 **协作流转** | [agent-skill-git-workflow](https://github.com/Garfield247/agent-skill-git-workflow) | **Git 全生命周期研发工作流**：完成即提交、Conventional Commits 中文原子提交、分支治理、变基冲突化解、`.gitignore` 四分类动态维护。 | `skills/git-workflow-mastery` |
