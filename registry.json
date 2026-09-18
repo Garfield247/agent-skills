@@ -198,6 +198,12 @@
         "amqp",
         "event-driven"
       ]
+    },
+    {
+      "name": "docker-mastery",
+      "repo": "Garfield247/agent-skill-docker-mastery",
+      "description": "Docker 生产级容器化架构、多阶段瘦身构建、安全基线、PID 1 优雅停机与微服务编排规范技能 (CIS Benchmark/Non-root/distroless/tini)",
+      "category": "infrastructure-middleware"
     }
   ]
 }
