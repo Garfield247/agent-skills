@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-09-18T11:35:00Z",
+  "updated_at": "2026-09-18T11:45:00Z",
   "skills": [
     {
       "name": "agent-skill-manager",
@@ -39,7 +39,7 @@
       "dir_name": "project-documentation",
       "repo": "git@github.com:Garfield247/agent-skill-project-documentation.git",
       "category": "Documentation",
-      "description": "人机双重视角文档体系、00 号标准约束与红线第一法则、AI 进场首读规范、数字分层目录治理与 Mermaid 防崩语法",
+      "description": "人机双重视角文档体系、00 号标准与红线第一法则、Diátaxis 四象限分层、MADR 架构决策、高价值 BUG 避坑档案与 Mermaid 防崩语法",
       "local_path": "skills/project-documentation"
     },
     {
