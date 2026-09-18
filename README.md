@@ -18,6 +18,7 @@
 | `python-fastapi` | 🚀 Python Web API | Async/Await 防阻塞黄金法则、统一响应包装、BaseBusinessException 全局业务异常拦截 (拒 500)、Pydantic v2 | [查看](https://github.com/Garfield247/agent-skill-python-fastapi) |
 | `python-crawler` | 🕷 Python 网络爬虫 | 协议逆向优先、httpx 异步连接池与限流、Playwright 拦截优化、TLS/JA3 指纹伪装与强制 Docstring 样例 | [查看](https://github.com/Garfield247/agent-skill-python-crawler) |
 | `python-scripting` | 💻 Python 自动化脚本 | Typer 现代 CLI、安全 Subprocess 调度 (严禁 shell=True, 显式 timeout)、pathlib 流式 I/O、Linux 退出码 | [查看](https://github.com/Garfield247/agent-skill-python-scripting) |
+| `hyperf-framework` | 🐘 PHP / 协程微服务 | Controller->DTO->Service->Repository 四层分层、Swoole 协程常驻内存安全、防 N+1 查询、队列幂等与 Crontab 分布式锁 | [查看](https://github.com/Garfield247/agent-skill-hyperf-framework) |
 
 ---
 

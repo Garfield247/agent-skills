@@ -149,6 +149,19 @@
         "devops",
         "automation"
       ]
+    },
+    {
+      "name": "hyperf-framework",
+      "description": "PHP 8.1+ 与 Hyperf 3.1 协程微服务架构通用开发与工程规范技能。涵盖 Controller->DTO->Service->Repository 四层分层架构标准、Swoole 协程常驻内存安全红线 (Hyperf\\Context\\Context)、PHP 8 Attribute 原生注解规范、HTTP 路由与参数约定 (禁 URL Path 业务参数)、数据库事务边界与 N+1 查询杜绝、异步队列幂等与多实例 Crontab 分布式锁防护。",
+      "repo": "https://github.com/Garfield247/agent-skill-hyperf-framework",
+      "version": "1.0.0",
+      "categories": [
+        "php",
+        "hyperf",
+        "swoole",
+        "coroutine",
+        "microservices"
+      ]
     }
   ]
 }
