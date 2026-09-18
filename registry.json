@@ -162,6 +162,42 @@
         "coroutine",
         "microservices"
       ]
+    },
+    {
+      "name": "mysql-mastery",
+      "description": "MySQL 8.0 生产级架构设计、性能调优与并发锁治理技能。涵盖 InnoDB 建表规约 (强制 utf8mb4/NOT NULL/无符号自增主键)、最左前缀与覆盖索引、EXPLAIN 执行计划调优、间隙锁与死锁排查防范、深分页延迟关联及大表无锁 DDL 规范。",
+      "repo": "https://github.com/Garfield247/agent-skill-mysql-mastery",
+      "version": "1.0.0",
+      "categories": [
+        "database",
+        "mysql",
+        "innodb",
+        "sql-tuning"
+      ]
+    },
+    {
+      "name": "redis-mastery",
+      "description": "Redis 7.0 生产级高并发缓存架构、分布式锁与数据安全规范技能。涵盖 Key 冒号命名与强 TTL 生命周期约束、BigKey/HotKey 治理与禁令清单 (禁 KEYS/FLUSHALL)、缓存三灾难终结方案 (穿透/击穿/雪崩)、Cache Aside 与延迟双删双写一致性标准、原子 Lua 分布式锁铁律。",
+      "repo": "https://github.com/Garfield247/agent-skill-redis-mastery",
+      "version": "1.0.0",
+      "categories": [
+        "cache",
+        "redis",
+        "distributed-lock",
+        "concurrency"
+      ]
+    },
+    {
+      "name": "rabbitmq-mastery",
+      "description": "RabbitMQ 生产级高可用架构、消息 100% 可靠性与事件驱动工程规范技能。涵盖全局单例 Connection 与 Channel 协程隔离、零丢失三层闭环 (Confirm + 3层持久化 + 手动 Ack 铁律)、消费端 QoS Prefetch 背压限流、死信队列 (DLX) 与毒丸死循环防护、消息体标准契约与消费幂等防重。",
+      "repo": "https://github.com/Garfield247/agent-skill-rabbitmq-mastery",
+      "version": "1.0.0",
+      "categories": [
+        "message-queue",
+        "rabbitmq",
+        "amqp",
+        "event-driven"
+      ]
     }
   ]
 }

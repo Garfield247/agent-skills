@@ -19,6 +19,9 @@
 | `python-crawler` | 🕷 Python 网络爬虫 | 协议逆向优先、httpx 异步连接池与限流、Playwright 拦截优化、TLS/JA3 指纹伪装与强制 Docstring 样例 | [查看](https://github.com/Garfield247/agent-skill-python-crawler) |
 | `python-scripting` | 💻 Python 自动化脚本 | Typer 现代 CLI、安全 Subprocess 调度 (严禁 shell=True, 显式 timeout)、pathlib 流式 I/O、Linux 退出码 | [查看](https://github.com/Garfield247/agent-skill-python-scripting) |
 | `hyperf-framework` | 🐘 PHP / 协程微服务 | Controller->DTO->Service->Repository 四层分层、Swoole 协程常驻内存安全、防 N+1 查询、队列幂等与 Crontab 分布式锁 | [查看](https://github.com/Garfield247/agent-skill-hyperf-framework) |
+| `mysql-mastery` | 🐬 数据库持久化与调优 | InnoDB 建表规约 (强制 utf8mb4/NOT NULL)、最左前缀覆盖索引、EXPLAIN 调优、间隙锁死锁防范、深分页延迟关联与大表热更 | [查看](https://github.com/Garfield247/agent-skill-mysql-mastery) |
+| `redis-mastery` | ⚡ 缓存与分布式协调 | Key 冒号命名与强 TTL 约束、BigKey 治理与禁令清单 (禁 KEYS/FLUSHALL)、缓存三灾难防护、双写一致性、原子 Lua 分布式锁 | [查看](https://github.com/Garfield247/agent-skill-redis-mastery) |
+| `rabbitmq-mastery` | 🐇 消息队列与事件驱动 | Connection 单例复用与 Channel 隔离、零丢失闭环 (Confirm + 3层持久化 + 手动 Ack)、QoS 背压限流、死信 DLX 与幂等防重 | [查看](https://github.com/Garfield247/agent-skill-rabbitmq-mastery) |
 
 ---
 
